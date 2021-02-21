@@ -91,5 +91,7 @@ $(".searchBtn").on("click", function (event) {
             "Friday",
             "Saturday"
         ];
-        return days
+        return days; 
     }
+
+    
