@@ -14,41 +14,42 @@
     <title>Weather Dashboard</title>
   </head>
   <body>
-
-<div class="mx-auto px-2">
-    <div class="row">
-        <header class="col-md-12">
-            <h1>Weather Dashboard</h1>
+    <div class="mx-auto px-2">
+        <div class="row">
+            <header class="col-md-12">
+                <h1>Weather Dashboard</h1>
         </header>
     </div>
     <main>
-    <div class="row px-3">
-        <div class="col-md-4 city-con">
-            <form role="form">
-                <div class="form-group searchbox clearfix">
-                  <label for="search">Search for a City:</label>
-                    <div class="search-con">
-                      <input type="text" class="form-control" id="search-city">
+        <div class="row px-3">
+            <div class="col-md-4 city-con">
+                <form role="form">
+                    <div class="form-group searchbox clearfix">
+                      <label for="search">Search for a City:</label>
+                        <div class="search-con">
+                          <input type="text" class="form-control" id="search-city">
+                        </div>
+                        <div class="submit-con">
+                          <button type="submit" class="submitbtn"><i class="fa fa-search"></i></button>
+                        </div>
+                      
                     </div>
-                    <div class="submit-con">
-                      <button type="submit" class="submitbtn"><i class="fa fa-search"></i></button>
-                    </div>
+                </form>
+                <div class="button-list">
+                    <ul class="list-group">
+                      </ul>
                 </div>
-            </form>
-            <div class="button-list">
-                <ul class="list-group">
-                  </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="city-results"></div>
+                <h2>Five Day Forecast:</h2>
+                <div class="fiveday row">
+                </div>
             </div>
         </div>
-        <div class="col-md-8">
-            <div class="city-results"></div>
-            <h2>Five Day Forecast:</h2>
-            <div class="fiveday row">
-            </div>
         </div>
-    </div>
-</div>
-</main>
+    </main>
+</body>
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -57,3 +58,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src = 'scripts.js'></script>
+</body>
+</html>
+

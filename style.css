@@ -1,0 +1,52 @@
+
+.maindiv {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    background-color: #333;
+    min-height: 80px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+h1 {
+    color: rgb(216, 216, 216);
+    margin-top: 16px;
+}
+.city-con {
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+}
+.temp {
+    padding: 4px;
+}
+
+.searchbox {
+    width:90%;
+}
+.search-con {
+    width: 80%;
+    float: left;
+}
+.submit-con {
+    width: 20%;
+    float: left;
+}
+.submit-con button {
+    background-color:  rgb(237, 159, 24);
+    height:calc(1.2em + .75rem + 3px);
+    width: 40px;
+    border: 2px solid rgb(211, 121, 25);
+}
+.submit-con button:hover {
+    background-color: rgb(242, 193, 70);
+}
+.fa-search {
+    color: rgb(245, 240, 231);
+}
+.city-results {
+    padding: 10px;
+    border: 2px solid rgb(138, 138, 138);
+    margin: 10px 0px;
+}
