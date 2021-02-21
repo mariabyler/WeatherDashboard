@@ -1,4 +1,4 @@
-var coordinates;
+// var coordinates;
 var cityInfoEl = $(".cityInfo");
 var tempEl = $(".temp");
 var humidityEl = $(".humidity");
@@ -94,4 +94,3 @@ $(".searchBtn").on("click", function (event) {
         return days; 
     }
 
-    
